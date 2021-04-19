@@ -1,0 +1,6 @@
+module Pods_QidzApp {
+  umbrella header "Pods-QidzApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

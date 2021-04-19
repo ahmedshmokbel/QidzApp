@@ -1,0 +1,17 @@
+com/qidzapp/ReactNativeFlipper.java
+ com.qidzapp.ReactNativeFlipper
+ com.qidzapp.ReactNativeFlipper$1
+ com.qidzapp.ReactNativeFlipper$2
+ com.qidzapp.ReactNativeFlipper$2$1
+com/qidzapp/generated/BasePackageList.java
+ com.qidzapp.generated.BasePackageList
+com/qidzapp/BuildConfig.java
+ com.qidzapp.BuildConfig
+com/qidzapp/MainActivity.java
+ com.qidzapp.MainActivity
+ com.qidzapp.MainActivity$1
+com/qidzapp/MainApplication.java
+ com.qidzapp.MainApplication
+ com.qidzapp.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

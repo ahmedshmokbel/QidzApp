@@ -1,0 +1,12 @@
+{
+  "name": "QidzApp",
+  "displayName": "QidzApp",
+  "expo": {
+    "name": "QidzApp",
+    "slug": "QidzApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

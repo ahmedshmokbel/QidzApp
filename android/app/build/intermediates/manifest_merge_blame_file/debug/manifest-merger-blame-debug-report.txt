@@ -1,0 +1,172 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qidzapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:4:3-75
+11-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:2:3-64
+12-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:5:3-72
+13-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:5:20-70
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:6:3-71
+14-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:6:20-69
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+15-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:7:3-69
+15-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:7:20-67
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:8:3-63
+16-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:8:20-61
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- These require runtime permissions on M -->
+17-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:9:3-77
+17-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:9:20-75
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:11:3-78
+18-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:11:20-76
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:12:3-76
+19-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:12:20-74
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:13:3-82
+20-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:13:20-80
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:14:3-62
+21-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:14:20-60
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:15:3-68
+22-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:15:20-66
+23    <uses-permission android:name="android.permission.READ_CONTACTS" />
+23-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:16:3-69
+23-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:16:20-67
+24    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+24-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:17:3-70
+24-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:17:20-68
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:18:3-69
+25-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:18:20-67
+26    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+26-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:19:3-70
+26-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:19:20-68
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:20:3-77
+27-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:20:20-75
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:21:3-78
+28-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:21:20-76
+29    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+29-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:22:3-70
+29-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:22:20-68
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->[com.facebook.flipper:flipper:0.54.0] /private/var/root/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+30-->[com.facebook.flipper:flipper:0.54.0] /private/var/root/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[:expo-updates] /Users/ahmedmokbel/React Native/QidzApp/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+31-->[:expo-updates] /Users/ahmedmokbel/React Native/QidzApp/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.android.installreferrer:installreferrer:1.0] /private/var/root/.gradle/caches/transforms-3/f0253ea821bc8a2ff8f914315e255dda/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+32-->[com.android.installreferrer:installreferrer:1.0] /private/var/root/.gradle/caches/transforms-3/f0253ea821bc8a2ff8f914315e255dda/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+33
+34    <application
+34-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:24:3-48:17
+35        android:name="com.qidzapp.MainApplication"
+35-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:25:5-36
+36        android:allowBackup="false"
+36-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:29:5-32
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.3.0] /private/var/root/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:27:5-39
+40        android:label="@string/app_name"
+40-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:26:5-37
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:28:5-50
+42        android:theme="@style/AppTheme"
+42-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:30:5-36
+43        android:usesCleartextTraffic="true" >
+43-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/debug/AndroidManifest.xml:6:18-53
+44        <meta-data
+44-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:32:5-103
+45            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+45-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:32:16-67
+46            android:value="YOUR-APP-URL-HERE" />
+46-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:32:68-101
+47        <meta-data
+47-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:33:5-112
+48            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+48-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:33:16-68
+49            android:value="YOUR-APP-SDK-VERSION-HERE" />
+49-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:33:69-110
+50
+51        <activity
+51-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:34:5-46:16
+52            android:name="com.qidzapp.MainActivity"
+52-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:35:7-35
+53            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+53-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:37:7-84
+54            android:label="@string/app_name"
+54-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:36:7-39
+55            android:launchMode="singleTask"
+55-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:38:7-38
+56            android:theme="@style/Theme.App.SplashScreen"
+56-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:40:7-52
+57            android:windowSoftInputMode="adjustResize" >
+57-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:39:7-49
+58            <intent-filter>
+58-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:42:7-45:23
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:43:9-60
+59-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:43:17-58
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:44:9-68
+61-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:44:19-66
+62            </intent-filter>
+63        </activity>
+64        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+64-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:47:5-81
+64-->/Users/ahmedmokbel/React Native/QidzApp/android/app/src/main/AndroidManifest.xml:47:15-79
+65
+66        <meta-data
+66-->[:unimodules-react-native-adapter] /Users/ahmedmokbel/React Native/QidzApp/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:91
+67            android:name="org.unimodules.core.AppLoader#react-native-headless"
+67-->[:unimodules-react-native-adapter] /Users/ahmedmokbel/React Native/QidzApp/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+68            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+68-->[:unimodules-react-native-adapter] /Users/ahmedmokbel/React Native/QidzApp/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
+69
+70        <provider
+70-->[:expo-file-system] /Users/ahmedmokbel/React Native/QidzApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-26:20
+71            android:name="expo.modules.filesystem.FileSystemFileProvider"
+71-->[:expo-file-system] /Users/ahmedmokbel/React Native/QidzApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-74
+72            android:authorities="com.qidzapp.FileSystemFileProvider"
+72-->[:expo-file-system] /Users/ahmedmokbel/React Native/QidzApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+73            android:exported="false"
+73-->[:expo-file-system] /Users/ahmedmokbel/React Native/QidzApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-37
+74            android:grantUriPermissions="true" >
+74-->[:expo-file-system] /Users/ahmedmokbel/React Native/QidzApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-47
+75            <meta-data
+75-->[:expo-file-system] /Users/ahmedmokbel/React Native/QidzApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-25:70
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[:expo-file-system] /Users/ahmedmokbel/React Native/QidzApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-67
+77                android:resource="@xml/file_system_provider_paths" />
+77-->[:expo-file-system] /Users/ahmedmokbel/React Native/QidzApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+78        </provider>
+79
+80        <service
+80-->[androidx.room:room-runtime:2.1.0] /private/var/root/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.room.MultiInstanceInvalidationService"
+81-->[androidx.room:room-runtime:2.1.0] /private/var/root/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+82            android:exported="false" />
+82-->[androidx.room:room-runtime:2.1.0] /private/var/root/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+83    </application>
+84
+85</manifest>
