@@ -4,8 +4,8 @@ import { useLoginStore } from '../MobX/StoreProvider';
 
 const LoginScreen = () => {
 
-    const [username, setUsername] = useState('ivaldi')
-    const [password, setPassword] = useState('testtest')
+    const [username, setUsername] = useState('')
+    const [password, setPassword] = useState('')
 
     const loginContext = useLoginStore()
     const _login = () => {
