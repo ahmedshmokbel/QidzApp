@@ -3,10 +3,10 @@ export function createLoginStore() {
     return {
         isLoggedIn: false,
         login() {
-            store.isLoggedIn = true;
+            this.isLoggedIn = true;
         },
         logout() {
-            store.bugs.length;
+            this.isLoggedIn = false;
         }
     }
 }
