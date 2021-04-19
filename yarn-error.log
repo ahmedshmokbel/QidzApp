@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/15.14.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add mobx mobx-react
+  /usr/local/Cellar/node/15.14.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add yarn add @react-navigation/native
 
 PATH: 
   /usr/local/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/sbin:/Users/ahmedmokbel/Developer/flutter/bin:/Users/ahmedmokbel/Developer/flutter/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, rmdir '/Users/ahmedmokbel/React Native/QidzApp/node_modules/@unimodules/core/android/build/.transforms'
+  Error: EACCES: permission denied, unlink '/Users/ahmedmokbel/React Native/QidzApp/node_modules/.bin/acorn'
 
 npm manifest: 
   {
@@ -26,13 +26,15 @@ npm manifest:
       "start": "react-native start",
       "test": "jest",
       "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'"
-  
     },
     "dependencies": {
+      "@babel/plugin-proposal-decorators": "^7.13.15",
       "expo": "~41.0.0",
       "expo-splash-screen": "~0.10.2",
       "expo-status-bar": "~1.0.4",
       "expo-updates": "~0.5.4",
+      "mobx": "^6.2.0",
+      "mobx-react": "^7.1.0",
       "react": "16.13.1",
       "react-dom": "16.13.1",
       "react-native": "~0.63.4",
@@ -386,7 +388,7 @@ Lockfile:
       "@babel/helper-create-class-features-plugin" "^7.12.13"
       "@babel/helper-plugin-utils" "^7.12.13"
   
-  "@babel/plugin-proposal-decorators@^7.6.0":
+  "@babel/plugin-proposal-decorators@^7.13.15", "@babel/plugin-proposal-decorators@^7.6.0":
     version "7.13.15"
     resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.13.15.tgz#e91ccfef2dc24dd5bd5dcc9fc9e2557c684ecfb8"
     integrity sha512-ibAMAqUm97yzi+LPgdr5Nqb9CMkeieGHvwPg1ywSGjZrZHQEGqE01HmOio8kxRpA/+VtOHouIVy2FMpBbtltjA==
@@ -5962,6 +5964,23 @@ Lockfile:
     integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
     dependencies:
       minimist "^1.2.5"
+  
+  mobx-react-lite@^3.2.0:
+    version "3.2.0"
+    resolved "https://registry.yarnpkg.com/mobx-react-lite/-/mobx-react-lite-3.2.0.tgz#331d7365a6b053378dfe9c087315b4e41c5df69f"
+    integrity sha512-q5+UHIqYCOpBoFm/PElDuOhbcatvTllgRp3M1s+Hp5j0Z6XNgDbgqxawJ0ZAUEyKM8X1zs70PCuhAIzX1f4Q/g==
+  
+  mobx-react@^7.1.0:
+    version "7.1.0"
+    resolved "https://registry.yarnpkg.com/mobx-react/-/mobx-react-7.1.0.tgz#d947cada3cfad294b4b6f692e969c242b9c16eaf"
+    integrity sha512-DxvA6VXmnZ+N9f/UTtolWtdRnAAQY2iHWTSPLktfpj8NKlXUe4dabBAjuXrBcZUM8GjLWnxD1ZEjssXq1M0RAw==
+    dependencies:
+      mobx-react-lite "^3.2.0"
+  
+  mobx@^6.2.0:
+    version "6.2.0"
+    resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.2.0.tgz#9a5afe3525a0302691c7805d0df6ef60834d79e5"
+    integrity sha512-j5f16JIq2v4flvYCqaAB9tMtJt/y5efR2OO5Xy+w4/MBMeQ1WeGR0T8BtiNgmxM/OQzPFUKb5DTex9Y8a/yk+g==
   
   mockdate@^3.0.2:
     version "3.0.5"

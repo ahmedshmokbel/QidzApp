@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import LoginScreen from './src/screens/LoginScreen'
-import {LoginStoreProvider} from './src/MobX/StoreProvider'
+import AppContainer from './src/navigation/AppContainer';
+import { LoginStoreProvider } from './src/MobX/StoreProvider'
 export default function App() {
   return (
     <LoginStoreProvider>
-      <LoginScreen />
+      <AppContainer />
     </LoginStoreProvider>);
 }
 
