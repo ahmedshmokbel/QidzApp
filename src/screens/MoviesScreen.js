@@ -2,13 +2,14 @@ import React, { useState, useEffect, } from 'react';
 import { View, StyleSheet, FlatList, Button, } from "react-native";
 
 import MoviesComponent from '../componenats/MoviesComponent';
- import { NetworkLayer } from '../Network/networkLayer';
+import { useLoginStore } from '../MobX/StoreProvider';
+import { NetworkLayer } from '../Network/networkLayer';
 
 const MoviesScreen = () => {
 
 
     const [movies, setMovies] = useState()
-   
+    const loginContext = useLoginStore()
 
     useEffect(() => {
 
@@ -62,7 +63,7 @@ const MoviesScreen = () => {
                 /> 
 
             </View>
-            
+            <Button title='logout' onPress={() =>loginContext.logout()} />
         </View >
 
     );
