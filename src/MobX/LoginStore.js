@@ -1,3 +1,6 @@
+import { action, observable } from "mobx";
+import { persist } from "mobx-persist";
+
 export function createLoginStore() {
 
     return {
@@ -10,3 +13,6 @@ export function createLoginStore() {
         }
     }
 }
+
+
+ 

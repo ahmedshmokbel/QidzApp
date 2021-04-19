@@ -8,7 +8,6 @@ const LoginScreen = () => {
     const [password, setPassword] = useState('testtest')
 
     const loginContext = useLoginStore()
-    console.log(loginContext);
     const _login = () => {
         if (username === 'ivaldi' && password === 'testtest') {
             loginContext.login()

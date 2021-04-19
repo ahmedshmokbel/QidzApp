@@ -13,6 +13,8 @@ import { observer } from 'mobx-react';
 const AppContainer = () => {
     //state
     const loginContext = useLoginStore()
+    console.log(loginContext.isLoggedIn);
+
     const Container = observer(() => <NavigationContainer>
 
         {loginContext.isLoggedIn ?

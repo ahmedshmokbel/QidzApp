@@ -26,11 +26,7 @@ const MoviesScreen = () => {
      
 
     }, [])
-
-
-
-
-
+ 
 
     const _renderItem = ({ item, index }) => {
 
